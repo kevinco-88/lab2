@@ -1,0 +1,128 @@
+﻿2026-03-17T15:31:21.4068119Z ##[debug]Starting: job2
+2026-03-17T15:31:21.4090568Z ##[debug]Cleaning runner temp folder: /home/runner/work/_temp
+2026-03-17T15:31:21.4201777Z ##[debug]Starting: Set up job
+2026-03-17T15:31:21.4203651Z Current runner version: '2.332.0'
+2026-03-17T15:31:21.4227276Z ##[group]Runner Image Provisioner
+2026-03-17T15:31:21.4228142Z Hosted Compute Agent
+2026-03-17T15:31:21.4228730Z Version: 20260213.493
+2026-03-17T15:31:21.4229707Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+2026-03-17T15:31:21.4230491Z Build Date: 2026-02-13T00:28:41Z
+2026-03-17T15:31:21.4231187Z Worker ID: {b36f3548-dfc4-43b3-8f97-e54ca1af3fc5}
+2026-03-17T15:31:21.4231863Z Azure Region: eastus
+2026-03-17T15:31:21.4232466Z ##[endgroup]
+2026-03-17T15:31:21.4233868Z ##[group]Operating System
+2026-03-17T15:31:21.4234499Z Ubuntu
+2026-03-17T15:31:21.4235088Z 24.04.3
+2026-03-17T15:31:21.4235533Z LTS
+2026-03-17T15:31:21.4236046Z ##[endgroup]
+2026-03-17T15:31:21.4236599Z ##[group]Runner Image
+2026-03-17T15:31:21.4237163Z Image: ubuntu-24.04
+2026-03-17T15:31:21.4237950Z Version: 20260309.50.1
+2026-03-17T15:31:21.4239249Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260309.50/images/ubuntu/Ubuntu2404-Readme.md
+2026-03-17T15:31:21.4240733Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260309.50
+2026-03-17T15:31:21.4241678Z ##[endgroup]
+2026-03-17T15:31:21.4244339Z ##[group]GITHUB_TOKEN Permissions
+2026-03-17T15:31:21.4246379Z Actions: write
+2026-03-17T15:31:21.4246927Z ArtifactMetadata: write
+2026-03-17T15:31:21.4247584Z Attestations: write
+2026-03-17T15:31:21.4248110Z Checks: write
+2026-03-17T15:31:21.4248626Z Contents: write
+2026-03-17T15:31:21.4249428Z Deployments: write
+2026-03-17T15:31:21.4250142Z Discussions: write
+2026-03-17T15:31:21.4250711Z Issues: write
+2026-03-17T15:31:21.4251206Z Metadata: read
+2026-03-17T15:31:21.4251917Z Models: read
+2026-03-17T15:31:21.4252398Z Packages: write
+2026-03-17T15:31:21.4253001Z Pages: write
+2026-03-17T15:31:21.4253514Z PullRequests: write
+2026-03-17T15:31:21.4254086Z RepositoryProjects: write
+2026-03-17T15:31:21.4254717Z SecurityEvents: write
+2026-03-17T15:31:21.4255261Z Statuses: write
+2026-03-17T15:31:21.4255785Z ##[endgroup]
+2026-03-17T15:31:21.4257898Z Secret source: Actions
+2026-03-17T15:31:21.4259305Z ##[debug]Primary repository: kevinco-88/lab2
+2026-03-17T15:31:21.4260031Z Prepare workflow directory
+2026-03-17T15:31:21.4327815Z ##[debug]Creating pipeline directory: '/home/runner/work/lab2'
+2026-03-17T15:31:21.4331398Z ##[debug]Creating workspace directory: '/home/runner/work/lab2/lab2'
+2026-03-17T15:31:21.4332980Z ##[debug]Update context data
+2026-03-17T15:31:21.4336500Z ##[debug]Evaluating job-level environment variables
+2026-03-17T15:31:21.4565280Z ##[debug]Evaluating job container
+2026-03-17T15:31:21.4568686Z ##[debug]Evaluating job service containers
+2026-03-17T15:31:21.4571539Z ##[debug]Evaluating job defaults
+2026-03-17T15:31:21.4597472Z Prepare all required actions
+2026-03-17T15:31:21.4692244Z ##[debug]Set step '__run' display name to: 'Printing Custom Message'
+2026-03-17T15:31:21.4696354Z ##[debug]Set step '__run_2' display name to: 'Printing run-job boolean value'
+2026-03-17T15:31:21.4697295Z Complete job name: job2
+2026-03-17T15:31:21.4713290Z ##[debug]Collect running processes for tracking orphan processes.
+2026-03-17T15:31:21.4957434Z ##[debug]Finishing: Set up job
+2026-03-17T15:31:21.5080306Z ##[debug]Evaluating condition for step: 'Printing Custom Message'
+2026-03-17T15:31:21.5172442Z ##[debug]Evaluating: success()
+2026-03-17T15:31:21.5178237Z ##[debug]Evaluating success:
+2026-03-17T15:31:21.5197870Z ##[debug]=> true
+2026-03-17T15:31:21.5207279Z ##[debug]Result: true
+2026-03-17T15:31:21.5232026Z ##[debug]Starting: Printing Custom Message
+2026-03-17T15:31:21.5352459Z ##[debug]Loading inputs
+2026-03-17T15:31:21.5383334Z ##[debug]Evaluating: format('echo {0}', inputs.custom_message)
+2026-03-17T15:31:21.5384705Z ##[debug]Evaluating format:
+2026-03-17T15:31:21.5388428Z ##[debug]..Evaluating String:
+2026-03-17T15:31:21.5390201Z ##[debug]..=> 'echo {0}'
+2026-03-17T15:31:21.5403868Z ##[debug]..Evaluating Index:
+2026-03-17T15:31:21.5406266Z ##[debug]....Evaluating inputs:
+2026-03-17T15:31:21.5407531Z ##[debug]....=> Object
+2026-03-17T15:31:21.5413821Z ##[debug]....Evaluating String:
+2026-03-17T15:31:21.5414476Z ##[debug]....=> 'custom_message'
+2026-03-17T15:31:21.5417789Z ##[debug]..=> 'Executing KodeKloud Lab 2'
+2026-03-17T15:31:21.5419685Z ##[debug]=> 'echo Executing KodeKloud Lab 2'
+2026-03-17T15:31:21.5420659Z ##[debug]Result: 'echo Executing KodeKloud Lab 2'
+2026-03-17T15:31:21.5426587Z ##[debug]Loading env
+2026-03-17T15:31:21.5497587Z ##[group]Run echo Executing KodeKloud Lab 2
+2026-03-17T15:31:21.5498478Z [36;1mecho Executing KodeKloud Lab 2[0m
+2026-03-17T15:31:21.6284832Z shell: /usr/bin/bash -e {0}
+2026-03-17T15:31:21.6286022Z ##[endgroup]
+2026-03-17T15:31:21.6382720Z ##[debug]/usr/bin/bash -e /home/runner/work/_temp/e5dba68b-8a89-420b-b561-6826688e62c3.sh
+2026-03-17T15:31:21.6505295Z Executing KodeKloud Lab 2
+2026-03-17T15:31:21.6560360Z ##[debug]Finishing: Printing Custom Message
+2026-03-17T15:31:21.6576082Z ##[debug]Evaluating condition for step: 'Printing run-job boolean value'
+2026-03-17T15:31:21.6586414Z ##[debug]Evaluating: (success() && (inputs.run-job == true))
+2026-03-17T15:31:21.6587537Z ##[debug]Evaluating And:
+2026-03-17T15:31:21.6590473Z ##[debug]..Evaluating success:
+2026-03-17T15:31:21.6591343Z ##[debug]..=> true
+2026-03-17T15:31:21.6592265Z ##[debug]..Evaluating Equal:
+2026-03-17T15:31:21.6593956Z ##[debug]....Evaluating Index:
+2026-03-17T15:31:21.6594936Z ##[debug]......Evaluating inputs:
+2026-03-17T15:31:21.6595767Z ##[debug]......=> Object
+2026-03-17T15:31:21.6596602Z ##[debug]......Evaluating String:
+2026-03-17T15:31:21.6597371Z ##[debug]......=> 'run-job'
+2026-03-17T15:31:21.6598718Z ##[debug]....=> true
+2026-03-17T15:31:21.6599733Z ##[debug]....Evaluating Boolean:
+2026-03-17T15:31:21.6600588Z ##[debug]....=> true
+2026-03-17T15:31:21.6604152Z ##[debug]..=> true
+2026-03-17T15:31:21.6605290Z ##[debug]=> true
+2026-03-17T15:31:21.6610302Z ##[debug]Expanded: (true && (true == true))
+2026-03-17T15:31:21.6611341Z ##[debug]Result: true
+2026-03-17T15:31:21.6612625Z ##[debug]Starting: Printing run-job boolean value
+2026-03-17T15:31:21.6626806Z ##[debug]Loading inputs
+2026-03-17T15:31:21.6629395Z ##[debug]Evaluating: format('echo {0}', inputs.run-job)
+2026-03-17T15:31:21.6630217Z ##[debug]Evaluating format:
+2026-03-17T15:31:21.6630831Z ##[debug]..Evaluating String:
+2026-03-17T15:31:21.6631400Z ##[debug]..=> 'echo {0}'
+2026-03-17T15:31:21.6632197Z ##[debug]..Evaluating Index:
+2026-03-17T15:31:21.6632821Z ##[debug]....Evaluating inputs:
+2026-03-17T15:31:21.6633424Z ##[debug]....=> Object
+2026-03-17T15:31:21.6634070Z ##[debug]....Evaluating String:
+2026-03-17T15:31:21.6634675Z ##[debug]....=> 'run-job'
+2026-03-17T15:31:21.6635282Z ##[debug]..=> true
+2026-03-17T15:31:21.6705728Z ##[debug]=> 'echo true'
+2026-03-17T15:31:21.6706242Z ##[debug]Result: 'echo true'
+2026-03-17T15:31:21.6706973Z ##[debug]Loading env
+2026-03-17T15:31:21.6714833Z ##[group]Run echo true
+2026-03-17T15:31:21.6715301Z [36;1mecho true[0m
+2026-03-17T15:31:21.6766101Z shell: /usr/bin/bash -e {0}
+2026-03-17T15:31:21.6766609Z ##[endgroup]
+2026-03-17T15:31:21.6816892Z ##[debug]/usr/bin/bash -e /home/runner/work/_temp/d2beb72d-a62e-44f7-8f51-a1653ae0df3f.sh
+2026-03-17T15:31:21.6841770Z true
+2026-03-17T15:31:21.6847582Z ##[debug]Finishing: Printing run-job boolean value
+2026-03-17T15:31:21.6896127Z ##[debug]Starting: Complete job
+2026-03-17T15:31:21.6898318Z Cleaning up orphan processes
+2026-03-17T15:31:21.7212794Z ##[debug]Finishing: Complete job
+2026-03-17T15:31:21.7245108Z ##[debug]Finishing: job2
